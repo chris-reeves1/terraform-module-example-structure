@@ -1,1 +1,6 @@
 # terraform-module-example-structure
+
+
+terraform.tfvars	Default values for main/dev environment	terraform apply
+tfvars/dev.tfvars	Overrides for dev (optional)	terraform apply -var-file=...
+tfvars/prod.tfvars	Overrides for prod	terraform apply -var-file=...
